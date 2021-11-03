@@ -10,10 +10,7 @@ import Sidebar from './../sidebar';
 
 import classes from './header.module.css';
 
-/**
- * Function from Material-UI.
- * Added style "background".
- */
+/** Function from Material-UI. */
 export default function Header() {
     return (
         <Box sx={{ flexGrow: 1 }}>

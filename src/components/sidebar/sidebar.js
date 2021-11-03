@@ -11,6 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import classes from './sidebar.module.css';
 
+/** Function from Material-UI. */
 export default function Sidebar() {
     const [state, setState] = React.useState({
         left: false,
