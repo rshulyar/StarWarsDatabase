@@ -9,10 +9,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import classes from './header.module.css';
 
 /**
- * Function from Material-UI
- * Header
+ * Function from Material-UI.
+ * Added style "background".
  */
-export default function DenseAppBar() {
+export default function Header() {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">

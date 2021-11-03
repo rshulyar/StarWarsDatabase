@@ -1,3 +1,3 @@
-import DenseAppBar from './header';
+import Header from './header';
 
-export default DenseAppBar;
+export default Header;

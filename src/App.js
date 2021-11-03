@@ -1,11 +1,11 @@
 import React from 'react';
 
-import DenseAppBar from './components/header';
+import Header from './components/header';
 
 function App() {
     return (
         <div>
-            <DenseAppBar/>
+            <Header/>
         </div>
     );
 }
