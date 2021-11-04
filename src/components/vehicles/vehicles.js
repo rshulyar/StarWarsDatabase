@@ -25,8 +25,8 @@ export default function Vehicles() {
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>Name</TableCell>
-                        <TableCell align="right">Model</TableCell>
+                        <TableCell>Vehicle name</TableCell>
+                        <TableCell align="right">Vehicle model</TableCell>
                         <TableCell align="right">Vehicle class</TableCell>
                         <TableCell align="right">Manufacturer</TableCell>
                         <TableCell align="right">Maximum atmosphering speed</TableCell>

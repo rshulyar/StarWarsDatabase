@@ -10,13 +10,13 @@ import Paper from '@mui/material/Paper';
 import classes from './people.module.css';
 
 /** Creates objects that contain information for inclusion in the rows of the table. */
-function createData(name, birthYear, gender, homeworld) {
-    return { name, birthYear, gender, homeworld };
+function createData(name, birthYear, gender, homeworld, species) {
+    return { name, birthYear, gender, homeworld, species };
 }
 
 /** An array of objects to be included in the table. */
 const rows = [
-    createData('Test name', '159 BBY', 'x', "Arakis"),
+    createData('Test name', '159 BBY', 'x', 'Arakis', 'Hum'),
 ];
 
 export default function People() {
@@ -26,9 +26,10 @@ export default function People() {
                 <TableHead>
                     <TableRow>
                         <TableCell>Name</TableCell>
-                        <TableCell align="right">BirthYear</TableCell>
+                        <TableCell align="right">Birth year</TableCell>
                         <TableCell align="right">Gender</TableCell>
                         <TableCell align="right">Homeworld</TableCell>
+                        <TableCell align="right">Species</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -43,6 +44,7 @@ export default function People() {
                             <TableCell align="right">{row.birthYear}</TableCell>
                             <TableCell align="right">{row.gender}</TableCell>
                             <TableCell align="right">{row.homeworld}</TableCell>
+                            <TableCell align="right">{row.species}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>

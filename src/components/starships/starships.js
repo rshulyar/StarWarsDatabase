@@ -26,7 +26,7 @@ export default function Starships() {
                 <TableHead>
                     <TableRow>
                         <TableCell>Starship name</TableCell>
-                        <TableCell align="right">Model</TableCell>
+                        <TableCell align="right">Starship model</TableCell>
                         <TableCell align="right">Starship class</TableCell>
                         <TableCell align="right">Manufacturer</TableCell>
                         <TableCell align="right">MGLT</TableCell>

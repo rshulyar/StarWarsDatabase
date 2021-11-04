@@ -25,7 +25,7 @@ export default function Planets() {
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>Name</TableCell>
+                        <TableCell>Planet name</TableCell>
                         <TableCell align="right">Diameter</TableCell>
                         <TableCell align="right">Population</TableCell>
                     </TableRow>
