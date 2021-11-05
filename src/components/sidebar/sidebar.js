@@ -1,12 +1,12 @@
-import * as React from 'react';
+// import * as React from 'react';
+import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
-
-/**Import menu icon for <MenuIcon/> */
+/** Import menu icon for <MenuIcon/> */
 import MenuIcon from '@mui/icons-material/Menu';
 
 import classes from './sidebar.module.css';
@@ -36,11 +36,9 @@ export default function Sidebar() {
             {/** List with items in array. Add link to href. */}
             <List>
                 {['Films', 'People', 'Planets', 'Species', 'Starships', 'Vehicles'].map((text) => (
-                    <a href="#" className={classes['links']}>
-                        <ListItem button key={text}>
-                            <ListItemText primary={text} />
-                        </ListItem>
-                    </a>
+                    <ListItem button key={text}>
+                        <ListItemText primary={text} />
+                    </ListItem>
                 ))}
             </List>
         </Box>
