@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './components/header';
+import ResponsiveDrawer from './components/header';
 
 import Films from './components/films';
 import People from './components/people';
@@ -12,7 +12,7 @@ import Vehicles from './components/vehicles';
 function App() {
     return (
         <div>
-            <Header/>
+            <ResponsiveDrawer/>
         </div>
     );
 }

@@ -1,3 +1,3 @@
-import Header from './header';
+import ResponsiveDrawer from './header';
 
-export default Header;
+export default ResponsiveDrawer;
